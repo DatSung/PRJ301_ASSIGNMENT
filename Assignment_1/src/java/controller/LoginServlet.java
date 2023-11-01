@@ -72,7 +72,7 @@ public class LoginServlet extends HttpServlet {
                     session.setAttribute("user", user);
                     //lưu mk để sử dụng trong setting
                     session.setAttribute("userpass", pass);
-                    response.sendRedirect(IMyConstant.PAGE_LOGIN);
+                    response.sendRedirect(IMyConstant.PAGE_WELCOME  );
                 }
             }
 
